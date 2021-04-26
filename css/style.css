@@ -150,3 +150,14 @@
 .item:hover .tagover{
     bottom: 135px;
 }
+
+.up {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    color: white;
+    background-color: #484848;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-family: arial;
+}
