@@ -14,21 +14,68 @@
     width: 70%;
     margin: auto;
     margin-top: 20px;
-
-    
-    background-color: black;
+    font-family: Helvetica;
 }
 
 .row {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .item {
     width: calc(100% / 3 - 20px);
     float: left;
     margin: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1a1a1a;
 }
 
 .item img {
     width: 100%;
+    display: block;
+}
+
+.item:hover {
+    cursor: pointer;
+}
+
+.text {
+    margin-top: 10px;
+}
+
+.brand {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.type {
+    display: block;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.price {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.spec {
+    color: #EB0037;
+}
+
+.text-special {
+    background-color: #75AC51;
+    padding: 15px 10px;
+    line-height: 22px;
+    
+    
+}
+
+.special-title {
+    font-weight: bold;
 }
