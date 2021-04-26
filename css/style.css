@@ -1,5 +1,5 @@
 * {
-    border: 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -67,7 +67,6 @@
 
 .type {
     display: block;
-    max-width: 100%;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -90,8 +89,8 @@
     background-color: #75AC51;
     padding: 15px 10px;
     line-height: 22px;
-    
-    
+
+
 }
 
 .special-title {
@@ -123,4 +122,31 @@
 
 .sosten {
     background-color: #00875A;
+}
+
+/* inizio bonus */
+
+.colors-hover {
+    width: 100%;
+    background: white;
+    display: none;
+    line-height: 30px;
+}
+
+.item:hover .colors-hover {
+    display: block;
+    position: absolute;
+    bottom: -10px;
+}
+
+.colors-hover div {
+    padding: 3px 0 7px;
+}
+
+.colors-hover span {
+    padding-right: 42px;
+}
+
+.item:hover .tagover{
+    bottom: 135px;
 }
