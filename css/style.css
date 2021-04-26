@@ -30,6 +30,11 @@
     color: #1a1a1a;
 }
 
+.cont-img {
+    width: 100%;
+    position: relative;
+}
+
 .item-img {
     width: 100%;
     display: block;
@@ -39,10 +44,18 @@
     cursor: pointer;
 }
 
-.cont-img {
-    width: 100%;
-    position: relative;
+.hover-img {
+    display: none;
 }
+
+.item:hover .fix-img {
+    display: none;
+}
+
+.item:hover .hover-img {
+    display: block;
+}
+
 
 .text {
     margin-top: 10px;
